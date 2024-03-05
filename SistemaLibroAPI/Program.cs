@@ -7,16 +7,29 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Connection string e injeccion de contexto
+//var connectionString = builder.Configuration.GetConnectionString("AppConnection");
+//builder.Services.AddDbContext<PracticaApiRContext>(op => op.UseSqlServer(connectionString));
+
+//Repositorio
+//Ejemplo de como injectar un repositorio:
+//builder.Services.AddScoped<IRepositorioEmpresa, RepositorioEmpresa>();
+
+//Servicios
+//Ejemplo de como inyectar servicio:
+//builder.Services.AddScoped<IEmpresa, EmpresaServices>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-//testGit2
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors(a => a.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
 app.UseHttpsRedirection();
 
