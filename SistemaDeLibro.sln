@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaNegocio", "CapaNegocio"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaEntidades", "CapaEntidades", "{62ECBF43-00FE-4D7B-9DEB-D4F2CDFE9BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaLibroAPI", "SistemaLibroAPI\SistemaLibroAPI.csproj", "{8D788578-2778-489A-82A1-EC404E198A3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaLibroAPI", "SistemaLibroAPI\SistemaLibroAPI.csproj", "{8D788578-2778-489A-82A1-EC404E198A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{E889CA53-7635-4ECA-B931-F84D99A5C95C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{E889CA53-7635-4ECA-B931-F84D99A5C95C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{E477F0FA-8410-49FC-B830-9D15703B7577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{E477F0FA-8410-49FC-B830-9D15703B7577}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{A7AB46D5-04A2-4014-96ED-654A6E8BBF62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{A7AB46D5-04A2-4014-96ED-654A6E8BBF62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
