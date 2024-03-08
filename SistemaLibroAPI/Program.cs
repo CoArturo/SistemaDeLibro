@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 //Connection string e injeccion de contexto
 //var connectionString = builder.Configuration.GetConnectionString("AppConnection");
-//builder.Services.AddDbContext<PracticaApiRContext>(op => op.UseSqlServer(connectionString));
+//builder.Services.AddDbContext<P3Context>(x => x.UseSqlServer(connectionString));
 
 //Repositorio
 //Ejemplo de como injectar un repositorio:
